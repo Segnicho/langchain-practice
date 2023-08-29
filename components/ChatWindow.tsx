@@ -126,7 +126,7 @@ export function ChatWindow(props: {
           <input
             className="grow mr-8 p-4 rounded"
             value={input}
-            placeholder={placeholder ?? "What's it like to be a pirate?"}
+            placeholder={placeholder ?? "What's it like to be a graduate from university?"}
             onChange={handleInputChange}
           />
           <button type="submit" className="shrink-0 px-8 py-4 bg-sky-600 rounded w-28">
